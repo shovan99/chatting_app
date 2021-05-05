@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+.logo_img {
+  margin-top: 2rem;
+}
+.app_form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 100%;
+  margin: 20px;
+}
+
+.app_formcontrol {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app_input {
+  width: 70vw;
+}
+.app_iconbutton {
+  width: 10vw;
+}
+
+.footer_para{
+  color: gray;
+}
+
+.welcome {
+  font-size: 40px;
+  color: gray;
+}
+
+.username_span{
+  font-family: 'Grand Hotel', cursive;
+  color: #0099f7;
+  font-size: 60px;
 }
